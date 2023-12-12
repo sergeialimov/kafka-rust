@@ -18,7 +18,7 @@ pub struct HNSearchResult {
     pub points: u32,
 }
 
-pub async fn fetch_hn_stories(
+pub async fn fetch_gn_stories(
     search_term: String,
     search_result_limit: u32,
 ) -> Result<HackerNewsResponse, reqwest::Error> {

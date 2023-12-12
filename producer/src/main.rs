@@ -1,6 +1,6 @@
+use crate::hn::HNSearchResult;
 use kafka::producer::{Producer, Record, RequiredAcks};
 use std::time::Duration;
-use crate::hn::HNSearchResult;
 
 mod hn;
 
